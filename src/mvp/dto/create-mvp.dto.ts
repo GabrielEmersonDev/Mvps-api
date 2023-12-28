@@ -1,6 +1,6 @@
 export class CreateMvpDto {
   id: number;
   name: string;
-  type: string;
+  type: 'fire' | 'sacred';
   size: string;
 }
